@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header</title>
+</head>
+
+<body>
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: CSS HEADER -->
+    <!-- CSS HEADER -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+        .landingpage__main {
+            width: 100%;
+            height: auto;
+
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .home {
+            display: flex;
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+            background-color: #EBF1FF;
+        }
+
+        .home__img,
+        .home__desc {
+            width: 48%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .home__subtitle,
+        .home__title,
+        .home__description {
+            margin: 0;
+            line-height: 1;
+            text-transform: uppercase;
+            padding: 0 2%;
+        }
+
+        .home__title {
+            font-size: 7rem;
+            font-weight: 700;
+        }
+
+        .home__subtitle {
+            font-size: .7rem;
+        }
+
+        .home__description {
+            font-size: .5rem;
+        }
+
+        .home__img img {
+            max-width: 500px;
+            width: 100%;
+
+        }
+
+        @media screen and (min-width: 868px) {
+            .home__title {
+                font-size: 7.5rem;
+                font-weight: 700;
+            }
+
+            .home__subtitle {
+                font-size: .75rem;
+            }
+
+            .home__description {
+                font-size: .5rem;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .home {
+
+                flex-direction: column;
+                width: 100%;
+                padding: 10% 2%;
+
+            }
+
+            .home__img,
+            .home__desc {
+                width: 98%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .home__img img {
+                max-width: 300px;
+                width: 100%;
+                padding-bottom: 2%;
+            }
+        }
+
+        .gradient {
+            background: linear-gradient(274deg, #3f3d56, #0d00ff, #262534);
+            background-size: 600% 600%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            -webkit-animation: AnimationName 15s ease infinite;
+            -moz-animation: AnimationName 15s ease infinite;
+            animation: AnimationName 15s ease infinite;
+        }
+
+        @-webkit-keyframes AnimationName {
+            0% {
+                background-position: 0% 54%
+            }
+
+            50% {
+                background-position: 100% 47%
+            }
+
+            100% {
+                background-position: 0% 54%
+            }
+        }
+
+        @-moz-keyframes AnimationName {
+            0% {
+                background-position: 0% 54%
+            }
+
+            50% {
+                background-position: 100% 47%
+            }
+
+            100% {
+                background-position: 0% 54%
+            }
+        }
+
+        @keyframes AnimationName {
+            0% {
+                background-position: 0% 54%
+            }
+
+            50% {
+                background-position: 100% 47%
+            }
+
+            100% {
+                background-position: 0% 54%
+            }
+        }
+    </style>
+    <!-- END CSS HEADER -->
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: HTML HEADER -->
+    <!-- HTML HEADER -->
+    <main class="landingpage__main">
+        <div class="home home__container container ">
+            <div class="home__img">
+                <img src="https://raw.githubusercontent.com/ananegridev/landing-team-data/d477894d74babb0d2f1d65a9380550cbf15ad5c5/assets/img/home.svg"
+                    alt="">
+            </div>
+            <div class="home__desc">
+                <h2 class="home__subtitle">
+                    Coordenação de dados Gerenciados <br>
+                </h2>
+                <h1 class="home__title gradient">
+                    GDC
+                </h1>
+                <p class="home__description">
+                    Time integrado a Gerência de Sistemas Corporativo (GSC)
+                </p>
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- END HTML HEADER -->
+</body>
+
+</html>
