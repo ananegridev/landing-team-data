@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+</head>
+
+<body>
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: CSS ABOUT -->
+    <!-- CSS ABOUT -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+        .landingpage__main {
+            width: 100%;
+            height: auto;
+
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .about {
+            display: flex;
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+            background-color: #FAFAFA;
+            justify-content: space-between;
+        }
+
+        .about__img,
+        .about__desc {
+            width: 48%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .about__title,
+        .about__description {
+            margin: 0;
+            line-height: 1;
+            padding: 0 2%;
+        }
+
+        .about__title{
+            color: #3F3D56;
+        }
+
+        .about__img img {
+            max-width: 300px;
+            width: 100%;
+            background-color: white;
+            padding: 2%;
+            border-radius: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            .about__title {
+                font-size: 3rem;
+                font-weight: 700;
+                padding: 2% 0 5% 0;
+            }
+
+            .about__description {
+                font-size: 1rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .about {
+
+                flex-direction: column;
+                width: 100%;
+                padding: 10% 2%;
+
+            }
+
+            .about__img,
+            .about__desc {
+                width: 98%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .about__img img {
+                padding-top: 2%;
+            }
+
+            .about__title {
+                font-size: 2rem;
+                font-weight: 700;
+                padding: 2% 0;
+            }
+
+            .about__description {
+                font-size: .7rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+    </style>
+    <!-- END CSS ABOUT -->
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: HTML ABOUT -->
+    <!-- HTML ABOUT -->
+    <main class="landingpage__main">
+        <div class="about about__container container ">
+
+            <div class="about__desc">
+                <div class="about__title">
+                    SOBRE NÓS
+                </div>
+                <div class="about__description">
+                    A Coordenação de Dados Gerenciados (CDG) é um time integrado à Gerência de Sistemas Corporativo (GSC) criado em 2022 com o objetivo de fornecer suporte de dados abrangente e proativo aos clientes e parceiros. A CGD é responsável por estabelecer infraestrutura, tecnologia, práticas, políticas e funções relacionadas à aquisição, gerenciamento e utilização eficazes de dados, alinhadas às melhores práticas do mercado. A equipe é composta por especialistas em gerenciamento de dados dedicados a ajudar indivíduos, empresas e organizações a gerenciar e usar seus dados de forma eficiente e eficaz, fornecendo soluções personalizadas e de alta qualidade para apoiar seus objetivos de negócios.
+                </div>
+            </div>
+
+            <div class="about__img">
+                <img src="https://raw.githubusercontent.com/ananegridev/landing-team-data/main/assets/img/about.svg"
+                    alt="">
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- END HTML ABOUT -->
+</body>
+
+</html>

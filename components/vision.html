@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>visao</title>
+</head>
+
+<body>
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: CSS visao -->
+    <!-- CSS visao -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+        .landingpage__main {
+            width: 100%;
+            height: auto;
+
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .visao {
+            display: flex;
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+            background-color: #FAFAFA;
+            justify-content: space-between;
+        }
+
+        .visao__img,
+        .visao__desc {
+            width: 48%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .visao__title,
+        .visao__description {
+            margin: 0;
+            line-height: 1;
+            padding: 0 2%;
+        }
+
+        .visao__title{
+            color: #3F3D56;
+        }
+
+        .visao__img img {
+            max-width: 300px;
+            width: 100%;
+            height: 270px;
+            background-color: white;
+            padding: 2%;
+            border-radius: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            .visao__title {
+                font-size: 3rem;
+                font-weight: 700;
+                padding: 2% 0 5% 0;
+            }
+
+            .visao__description {
+                font-size: 1rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .visao {
+
+                flex-direction: column;
+                width: 100%;
+                padding: 10% 2%;
+
+            }
+
+            .visao__img,
+            .visao__desc {
+                width: 98%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .visao__img img {
+                margin-top: 5%;
+            }
+
+            .visao__title {
+                font-size: 2rem;
+                font-weight: 700;
+                padding: 2% 0;
+            }
+
+            .visao__description {
+                font-size: .7rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+    </style>
+    <!-- END CSS visao -->
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: HTML visao -->
+    <!-- HTML visao -->
+    <main class="landingpage__main">
+        <div class="visao visao__container container ">
+
+            <div class="visao__desc">
+                <div class="visao__title">
+                    VISÃO
+                </div>
+                <div class="visao__description">
+                    Ser referencia para projetos referente a dados dentro da organização, fornecendo soluções inovadoras e personalizadas que ajudem nossos clientes a alcançar seus objetivos de negócios.
+                </div>
+            </div>
+
+            <div class="visao__img">
+                <img src="https://raw.githubusercontent.com/ananegridev/landing-team-data/main/assets/img/visao.svg"
+                    alt="">
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- END HTML visao -->
+</body>
+
+</html>

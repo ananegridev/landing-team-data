@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>servofr</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: CSS servofr -->
+    <!-- CSS servofr -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+        .landingpage__main {
+            width: 100%;
+            height: auto;
+
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .servofr {
+            display: flex;
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+            background-color: #FAFAFA;
+            justify-content: space-between;
+        }
+
+        .servofr__img,
+        .servofr__desc {
+            width: 48%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .servofr__title,
+        .servofr__description {
+            margin: 0;
+            line-height: 1;
+            padding: 0 2%;
+        }
+
+        .servofr__title{
+            color: #3F3D56;
+        }
+
+        .servofr__img img {
+            max-width: 300px;
+            width: 100%;
+            height: 270px;
+            background-color: white;
+            padding: 2%;
+border-radius: 100%;
+        }
+
+        .servofr__list{
+         width: 90%;
+         padding: 2%;       
+        }
+
+        .list-check{
+            display: flex;
+            align-items: center;
+            margin: 2%;
+
+        }
+
+        .list-check i{
+            margin-right: 10px;
+            color: #0D00FF;
+        }
+
+        @media screen and (min-width: 768px) {
+            .servofr__title {
+                font-size: 3rem;
+                font-weight: 700;
+                padding: 2% 0 5% 0;
+            }
+
+            .servofr__description {
+                font-size: 1rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+            
+            .list-check{
+                font-size: 1rem;
+                
+               }
+
+               .list-check i{
+                font-size: 1.3rem;
+               }
+
+        }
+
+        @media screen and (max-width: 768px) {
+            .servofr {
+
+                flex-direction: column;
+                width: 100%;
+                padding: 10% 2%;
+
+            }
+
+            .servofr__img,
+            .servofr__desc {
+                width: 98%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .servofr__img img {
+                margin-top: 5%;
+            }
+
+            .servofr__title {
+                font-size: 2rem;
+                font-weight: 700;
+                padding: 2% 0;
+            }
+
+            .servofr__description {
+                font-size: .9rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+
+            .servofr__list{
+                width: 70%;
+                padding: 2%;       
+               }
+       
+
+        }
+
+    </style>
+    <!-- END CSS servofr -->
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: HTML servofr -->
+    <!-- HTML servofr -->
+    <main class="landingpage__main">
+        <div class="servofr servofr__container container ">
+
+            <div class="servofr__desc">
+                <div class="servofr__title">
+                    SERVIÇOS OFERECIDOS
+                </div>
+                <div class="servofr__description">
+                    Oferecemos uma ampla variedade de serviços de gerenciamento de dados, incluindo:
+                </div>
+                <div class="servofr__list">
+                    <div class="list-check"> <i class="ri-organization-chart"></i> Coleta e organização de dados </div>
+                    <div class="list-check"> <i class="ri-shield-check-line"></i> Limpeza e validação de dados </div>
+                    <div class="list-check"> <i class="ri-line-chart-line"></i> Análise de dados e visualização de dados </div>
+                    <div class="list-check"> <i class="ri-slideshow-line"></i> Desenvolvimento de pipeline de dados </div>
+                    <div class="list-check"> <i class="ri-chat-smile-2-line"></i> Consultoria em gerenciamento de dados </div>
+
+                </div>
+            </div>
+
+            <div class="servofr__img">
+                <img src="https://raw.githubusercontent.com/ananegridev/landing-team-data/main/assets/img/service.svg"
+                    alt="">
+            </div>
+        </div>
+        </section>
+    </main>
+    <!-- END HTML servofr -->
+</body>
+
+</html>

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão</title>
+</head>
+
+<body>
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: CSS missao -->
+    <!-- CSS missao -->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;700&display=swap');
+
+        .landingpage__main {
+            width: 100%;
+            height: auto;
+
+            margin: 0 auto;
+            font-family: 'Poppins', sans-serif;
+            font-size: 1rem;
+        }
+
+        .missao {
+            display: flex;
+            width: 100%;
+            padding: 2%;
+            box-sizing: border-box;
+            background-color: #FAFAFA;
+            justify-content: space-between;
+        }
+
+        .missao__img,
+        .missao__desc {
+            width: 48%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .missao__title,
+        .missao__description {
+            margin: 0;
+            line-height: 1;
+            padding: 0 2%;
+        }
+
+        .missao__title{
+            color: #3F3D56;
+        }
+
+        .missao__img img {
+            max-width: 300px;
+            width: 100%;
+            height: 270px;
+            background-color: white;
+            padding: 2%;
+            border-radius: 100%;
+        }
+
+        @media screen and (min-width: 768px) {
+            .missao__title {
+                font-size: 3rem;
+                font-weight: 700;
+                padding: 2% 0 5% 0;
+            }
+
+            .missao__description {
+                font-size: 1rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+        @media screen and (max-width: 768px) {
+            .missao {
+
+                flex-direction: column;
+                width: 100%;
+                padding: 10% 2%;
+
+            }
+
+            .missao__img,
+            .missao__desc {
+                width: 98%;
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .missao__img img {
+                margin: 2% 0;
+            }
+
+            .missao__title {
+                font-size: 2rem;
+                font-weight: 700;
+                padding: 2% 0;
+            }
+
+            .missao__description {
+                font-size: .7rem;
+                text-align: justify;
+                line-height: 1.5;
+            }
+        }
+
+    </style>
+    <!-- END CSS missao -->
+
+    <!-- COPIE TUDO QUE ESTIVER DENTRO DE: HTML missao -->
+    <!-- HTML missao -->
+    <main class="landingpage__main">
+        <div class="missao missao__container container ">
+            <div class="missao__img">
+                <img src="https://raw.githubusercontent.com/ananegridev/landing-team-data/main/assets/img/missao.svg"
+                    alt="">
+            </div>
+
+            <div class="missao__desc">
+                <div class="missao__title">
+                    MISSÃO
+                </div>
+                <div class="missao__description">
+                    Ajudar nossos clientes a gerenciar e analisar seus dados de maneira eficiente e eficaz, utilizando as melhores práticas e tecnologias disponíveis, a fim de fornecer insights valiosos que os ajudem a tomar decisões informadas e estratégicas.
+                </div>
+            </div>
+
+
+        </div>
+        </section>
+    </main>
+    <!-- END HTML missao -->
+</body>
+
+</html>
